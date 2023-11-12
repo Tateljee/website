@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>VZW Tateljee</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="opmaak.css" rel="stylesheet" type="text/css">
+<script src="java.js" type="text/javascript">
+ <!--
+ -->
+ </script>
+<script language="JavaScript">
+<!--
+function startList() {
+	if (document.all&&document.getElementById) {
+		navRoot = document.getElementById("main_menu");
+		for (i=0; i<navRoot.childNodes.length; i++) {
+			node = navRoot.childNodes[i];
+			if (node.nodeName=="LI") {
+				node.onmouseover=function() {
+				this.className+=" over";
+				  }
+				  node.onmouseout=function() {
+				  this.className=this.className.replace(" over", "");
+				   }
+			   }
+		  }
+	 }
+}
+
+-->
+</script> 
+</head>
+<body onLoad="makeMenu();startList();displaypage()">
+	<div id="container">
+		<div class="fix">
+			<img src="header.jpg"/>
+			
+			<div id="menu">
+			
+			</div>
+			<div id="replace">
+					 <ul>
+						<li class="extra_menu">
+							<a href="begeleiding_info.htm">adressen / tel</a>
+						</li>
+					 	<li>
+							&nbsp;
+						</li>
+						<li>
+							&nbsp;
+						</li>
+						<li>
+							&nbsp;
+						</li>
+						<li>
+							&nbsp;
+						</li>
+					</ul>
+				</div>	
+			<div id="content">
+				
+				<div class="fix">
+					<div id="weg">
+							vul het paswoord in en klik op Login om verder te gaan.
+							<br/><br/>
+							<form>
+							<input id="passw" type="password" onKeyPress="" />
+							<input name="btnLogin" type="button" value="Login" onclick="checkPassw()" class="button" accesskey="a"/>
+							</form>
+					</div>				
+					
+					<div id="verschijn">
+						
+							<div align="center">login succesvol !</div>						
+						
+					</div>
+					
+				</div>
+			</div>
+			<div id="footer">
+				<div class="fix2">
+				<div>Tateljee &copy; 2004 - 2009 - hosting door <a href="http://danskant.be" target="_blank">danskant.be</a>
+
+				</div>		
+				</div>
+			</div>
+		</div>		
+	</div>
+</body>
+</html>
